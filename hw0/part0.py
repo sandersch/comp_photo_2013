@@ -17,7 +17,9 @@ def split_rgb(image):
   green = None
   blue = None
   # Insert your code here.----------------------------------------------------
-
+  red = image[:,:,2]
+  green = image[:,:,1]
+  blue = image[:,:,0]
   #---------------------------------------------------------------------------
   return red, green, blue
 
