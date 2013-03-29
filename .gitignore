@@ -33,3 +33,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Don't track output images from homework assignments
+hw0/images/part0/kittenred.jpg
+hw0/images/part0/kittenblue.jpg
+hw0/images/part0/kittengreen.jpg
+hw0/images/part1/together.jpg
+hw0/images/part2/kittengrey.jpg
