@@ -20,7 +20,9 @@ def interlace(evens, odds):
 
   outimg = None
   # Implement your function here ---------------------------------------------
-
+  outimg = np.empty((evens.shape[0] * 2, evens.shape[1], evens.shape[2]), dtype=evens.dtype)
+  outimg[0::2] = evens
+  outimg[1::2] = odds
   #---------------------------------------------------------------------------
   return outimg
 
